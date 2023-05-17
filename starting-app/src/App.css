@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/****************************** Header CSS **************************** */
+header{
+  width: 100%;
+  height: 10vh;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Quicksand';
+  border-bottom: 1px groove #95a5a6;
+}
+header .firstdiv{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+header .name {
+  font-size: 23px;
+  padding-left: 10px;
+}
+
+.useri{
+  display: flex;
+  align-items: center;
+  padding-right: 20px ;
+  font-size: 25px;
+}
+.useri button{
+  background: none;
+  border: none;
+}
+.i{
+  font-size: 45px;
+}
+
+/****************************** Sidebar CSS **************************** */
+
+.sidebari ul{
+  text-decoration: none;
+  font-size: 23px;
+  border: none;
+  font-family: 'Quicksand';
+  cursor: pointer;
+  list-style: none;
+}
+.sidebari li{
+  padding-top: 1.5vh;
+}
+.sidebari .buttoni {
+  text-decoration: none;
+  color: #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebari a {
+  text-decoration: none;
+}
+.sidebari .icona{
+  font-size: 30px;
+}
+
+.sidebari {
+  height: 89.9vh;
+  width: 5.5vw;
+  padding: 0 0.6vw;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px groove #bdbdbd;
+}
+.sidebari .active .buttoni{
+  color: #2E636E;
+}
+.sidebari li:hover{
+  color: #2e2e2e;
+}
+
+/****************************** App.js CSS **************************** */
+.Body{
+  display: flex;
+}
+
+
+/****************************** Data & Time CSS **************************** */
+.timer{
+  font-size: 18px;
+  padding: 3px 0 0 5px;
+  
+}
+
+/****************************** Home CSS **************************** */
+.body{
+  display: flex;
+  width: 60vw;
+  max-width: 60vw;
+}
+.mainbody{
+  display: flex;
+  flex-direction: column;
+  height: 87.2vh;
+  margin-top: -25px;
+  padding-top: 25px;
+  border-right: 1px groove #999999;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 18px 12px;
+  gap: 16px;
+  width: 12vw;
+  height: 110px;
+  background: #003049;
+  border-radius: 4px;
+  color: #ffff;
+  margin: 1vh 0 0 1vw;
+}
+.box .icona{
+  font-size: 23px;
+}
+.box label{
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+.box h1{
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.tabela{
+  padding: 4vh 0 0 4vw;
+  font-family: 'Quicksand';
+  text-align: center;
+}
+.tabela table{
+    
+    width: 50vw;
+}
+.tabela td{
+    border-bottom: 1px groove #999999;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/****************************** Order CSS **************************** */
+.orderbody{
+  padding-top: 1vh;
+}
+.ordername{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  width: 28vw;
+  padding: 2vh 0 4vh 0.5vw;
+  margin-left: 1vw;
+  border-bottom: 1px groove #999999;
+}
+
+.ordercart{
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carticon{
+  font-size: 87px;
+  color: #003049;
+}
+.ordercart h1{
+  width: 141px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+/****************************** Products CSS **************************** */
+
+.searchi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5vh 0 0 2vw;
+  width: 90vw;
+}
+.searchi input{
+  width: 245px;
+  height: 40px;
+
+  background: #ECF3F5;
+  border-radius: 10px;
+
+  font-family: 'Quicksand';
+  font-size: 15px;
+  padding-left: 7px;
+  border: none;
+}
+
+.searchi button{
+  width: 120px;
+  height: 35px;
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #ffff;
+  background: #1A8FDD;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3vw;
+  border: none;
+  cursor: pointer;
+}
+
+.tabelaa{
+  padding: 4vh 0 0 4vw;
+  font-family: 'Quicksand';
+  text-align: center;
+}
+.tabelaa table{
+    width: 85vw;
+}
+.tabelaa td{
+    border-bottom: 1px groove #99999956;
+    border-collapse: collapse;
+    padding: 5px;
+}
